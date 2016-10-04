@@ -3,12 +3,30 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Currículo do Fulano da Silva</title>
+        <style>
+            h2 {
+                /* cor de fundo */
+                background: #5599DD;
+                /* cor do texto */
+                color: #DDDDDD;
+            }
+            .exp {
+                /* recuo na primeira linha */
+                text-indent: 50px;
+            }
+            #email {
+                /* texto sublinhado */
+                text-decoration: underline;
+                /* estilo do texto em italico */
+                font-style:italic;
+            }
+        </style>
     </head>
     <body>
         <h1>Fulano da Silva</h1>
         <p>28 anos, Solteiro</p>
         <p>(99)9999-9999</p>
-        <p>fulando@email.com.br</p>
+        <p id="email">fulando@email.com.br</p>
 
         <h2>Objetivos</h2>
         <p>Programação/Análise de Sistemas</p>
@@ -37,13 +55,13 @@
         <h2>Experiências Anteriores</h2>
 
         <h3>Pamonharia de Piracicaba - jun/2010 - atual</h3>
-        <p>Na Pamonharia de Piracicaba participo de migração de um ERP Desktop em Delphi para uma versão Web utilizando Java com as tecnologias, tomcat, JSF, JPA e JMS</p>
+        <p class="exp">Na Pamonharia de Piracicaba participo de migração de um ERP Desktop em Delphi para uma versão Web utilizando Java com as tecnologias, tomcat, JSF, JPA e JMS</p>
 
         <h3>Mineradora Minério - ago/2008 - jun/2010</h3>
-        <p>Análise e desenvolvimento do sistema de integração entre a o posto de coleta e a matriz da empresa utilizando a linguagem Java, e as tecnologias, RMI, Jax-WS, JDBC e Spring</p>
+        <p class="exp">Análise e desenvolvimento do sistema de integração entre a o posto de coleta e a matriz da empresa utilizando a linguagem Java, e as tecnologias, RMI, Jax-WS, JDBC e Spring</p>
 
         <h3>Consultoria Consultus - jan/2002 - ago/2008</h3>
-        <p>Manutenção Corretiva e Desenvolvimento de diversos sistemas para os clientes da empresa entre as principais linguagens trabalhadas estão, PHP, Delphi, Java e as principais tecnologias foram Servlet, JSP, Struts 1.x, JDBC, Hibernate, EJB 2.x</p>
+        <p class="exp">Manutenção Corretiva e Desenvolvimento de diversos sistemas para os clientes da empresa entre as principais linguagens trabalhadas estão, PHP, Delphi, Java e as principais tecnologias foram Servlet, JSP, Struts 1.x, JDBC, Hibernate, EJB 2.x</p>
 
     </body>
 </html>
