@@ -35,10 +35,12 @@ h2{
     background-color: #F8EAB3;
 }
 
+/*
 nav ul li{
     display: inline;
     margin-right: 50px;
 }
+*/
 
 /* Adicionando degrade. */
 h2{
@@ -80,4 +82,45 @@ a{
 
 a:hover{
     text-decoration:underline;
+}
+
+nav {
+    float: left;
+    width:200px;
+}
+
+#conteudo {
+    float:right;
+    width:740px;
+}
+
+nav ul li {
+    background: #C7BE9B;
+    padding:3px;
+    margin-bottom:5px;
+}
+
+nav ul li a{
+    color:black;
+    /* Remove o sublinhado. */
+    text-decoration:none;
+}
+
+nav ul{
+    /* Remove sa bolinhas do link. */
+    list-style:none;
+    padding-left:0;
+}
+
+nav ul li:hover{
+    background-color:#9C8F67;
+}
+
+#banner{
+    top: 0;
+    right: 0;
+    /* Sera relativo ao primeiro pai que e fixed. */
+    /* position:absolute; */
+    /* Mantem fixo mesmo com rolagem. */
+    position: fixed;
 }
