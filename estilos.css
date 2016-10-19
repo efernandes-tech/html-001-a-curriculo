@@ -69,6 +69,15 @@ figure{
 }
 
 /* Girando a foto com "transform". */
-figure{
+figure:hover{
     -webkit-transform:rotate(-5deg);
+}
+
+a{
+    color:blue;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
 }
