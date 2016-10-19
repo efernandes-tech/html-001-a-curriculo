@@ -39,3 +39,33 @@ nav ul li{
     display: inline;
     margin-right: 50px;
 }
+
+/* Adicionando degrade. */
+h2{
+    background:-webkit-linear-gradient(top, #9C8F67, #C7BE9B 30%);
+}
+
+/* Adicionando bordas arredondadas. */
+h2{
+    border-radius:15px;
+    border: 1px solid black;
+}
+
+figure{
+    background-color:white;
+    width:400px;
+    text-align:center;
+    padding:15px;
+    font-family:'Comic Sans MS',cursive;
+    border:1px solid black;
+}
+
+/* Aplicando sombra. */
+figure{
+    box-shadow:5px 5px 3px rgba(0,0,0,0.7);
+}
+
+/* Girando a foto com "transform". */
+figure{
+    -webkit-transform:rotate(-5deg);
+}
