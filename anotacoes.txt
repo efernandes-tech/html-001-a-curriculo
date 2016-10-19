@@ -1,0 +1,1 @@
+1 - A tag "<nav></nav>" não tem estilizacao propria, serve apenas para semantica, pq indica a navegacao da pagina.
