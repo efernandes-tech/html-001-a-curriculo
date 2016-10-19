@@ -42,7 +42,10 @@ nav ul li{
 
 /* Adicionando degrade. */
 h2{
-    background:-webkit-linear-gradient(top, #9C8F67, #C7BE9B 30%);
+    background:-moz-linear-gradient(top, #9C8F67, #C7BE9B 30%); /* Firefox. */
+    background:-webkit-linear-gradient(top, #9C8F67, #C7BE9B 30%); /* Chrome. */
+    background:-o-linear-gradient(top, #9C8F67, #C7BE9B 30%); /* Opera. */
+    background:-ms-linear-gradient(top, #9C8F67, #C7BE9B 30%); /* IE>10.*/
 }
 
 /* Adicionando bordas arredondadas. */
