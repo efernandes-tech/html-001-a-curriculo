@@ -1,2 +1,3 @@
 # html-001-a-curriculo
-Exemplo de pagina para currículo. (projeto prático)
+
+Exemplo de pagina para currículo.
